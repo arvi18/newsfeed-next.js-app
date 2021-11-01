@@ -1,5 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import { Toolbar } from '../components/Toolbar'
 import styles from '../styles/Home.module.css'
 
@@ -9,7 +7,9 @@ export default function Home() {
         <Toolbar />
       <div className={styles.main}>
         <h1>Next.js News App</h1>
-        <h3>Lorem ipsum dolor sit amet consectetur lorem</h3>
+        <h3>Simple Next.js webapp which fetches news articles from news API</h3>
+        
+
       </div>
     </div>
   )

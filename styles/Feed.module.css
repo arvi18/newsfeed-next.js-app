@@ -5,26 +5,34 @@
     flex-direction: column;
   }
   .post {
-    max-width: 500px;
+    max-width: 600px;
     margin-bottom: 25px;
     padding-bottom: 25px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid gray;
   }
   .post img {
     width: 100%;
+    border-radius: 1.2rem;
+    outline: 5px solid white;
   }
   .post h1 {
-    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
     cursor: pointer;
     text-align: center;
+  }
+  .post p {
+    font-family: Verdana;
+    opacity: 0.7;
   }
   .paginator {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-bottom: 2.5rem;
   }
   .paginator div {
-    margin: 25px;
+    margin: 0 25px;
   }
   .paginator .active {
     cursor: pointer;

@@ -2,12 +2,20 @@
     width: 100%;
     height: 50px;
     display: flex;
+    font-weight: 600;
     justify-content: center;
+    font-size: 1.1rem;
+    color: rgb(99, 99, 99);
+    background: white;
+    align-items: center;
+    box-shadow: 0 0 18px 8px rgba(208, 207, 207, 0.714);
   }
   .main div {
     margin: 25px;
+    padding: 3px;
     cursor: pointer;
   }
   .main div:hover {
     color: rgb(168, 168, 168);
+    background: #eee;
   }
